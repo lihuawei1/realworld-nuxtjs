@@ -10,7 +10,7 @@ ssh root@106.75.26.38//连接服务器
 
 scp .\real-nuxtjs.zip root@106.75.26.38:/root/real-nuxtjs//把发布包传到服务器
 
-unzip real-nuxtjs//解压
+unzip real-nuxtjs//解压压缩包
 
 npm i
 
