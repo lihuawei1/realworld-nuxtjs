@@ -89,7 +89,10 @@
 <script>
 export default {
    middleware:'authenticated',
-   name:"ProfileIndex"
+   name:"ProfileIndex",
+   async asyncData({query,store}){ 
+      console.log(query,store,'123')
+   }
 }
 </script>
 
